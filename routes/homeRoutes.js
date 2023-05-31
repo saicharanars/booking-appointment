@@ -11,7 +11,6 @@ router.get("/get-data",homeController.getData);
 router.post("/add-booking",homeController.postbooking);
 router.delete('/delete-booking/:id',homeController.postDelete);
 
-// router.post("/edit-booking",homeController.postbooking);
 
-// router.post('/edit-product/:productId',adminController.postEdit);
+router.post('/edit-booking/:id',homeController.postEdit);
 module.exports = router;
